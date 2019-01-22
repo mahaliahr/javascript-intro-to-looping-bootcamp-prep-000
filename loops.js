@@ -1,10 +1,25 @@
 function forLoop(array) {
-    for (var i = 0; i < 25; i ++) {
-      if (i > 1);
-        console.log("I am ${i} strange loops.");
-        return array
-      else
-        console.log("I am 1 strange loop.")
-        return array
-    }
+  for 
+return array
+}
+
+function whileLoop(n) {
+  var countdown = n
+  while (countdown > 0) {
+    console.log(--countdown)
+  }
+  return 'done'
+}
+
+function doWhileLoop(array) {
+  var i = 0;
+
+function incrementVariable() {
+  i = i + 1;
+}
+  do{
+    array.shift()
+    incrementVariable()
+  } while (array.length > 0 && incrementVariable())
+  return array
 }
