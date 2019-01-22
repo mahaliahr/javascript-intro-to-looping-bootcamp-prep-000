@@ -1,5 +1,5 @@
 function forLoop(array) {
-  for 
+  for ()
 return array
 }
 
